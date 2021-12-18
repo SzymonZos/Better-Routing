@@ -1,0 +1,132 @@
+# https://discourse.pi-hole.net/t/how-do-i-add-additional-block-lists-to-pi-hole/259
+# The below list amalgamates several lists we used previously.
+# See `https://github.com/StevenBlack/hosts` for details
+##StevenBlack's list
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+##MalwareDomains
+https://mirror1.malwaredomains.com/files/justdomains
+
+##Cameleon
+http://sysctl.org/cameleon/hosts
+
+##Zeustracker
+https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
+
+##Disconnect.me Tracking
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+
+##Disconnect.me Ads
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+
+##Hosts-file.net
+https://hosts-file.net/ad_servers.txt
+
+# https://www.certyficate.it/polskie-filtry-pi-hole-blokowanie-reklam
+##Polish filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
+
+## Easylist Host filters for Pi hole
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt
+
+## EasyPrivacy Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt
+
+## Adguard Host filters for Pi hole
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt
+
+## KAD Host filters for Pi hole (By MajkiIT) 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/kad_host.txt
+
+## CoinBlocker hosts List by ZeroDot
+https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/hosts https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/hosts
+
+## NoCoin Filter List 
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+
+## Ad filter list by Disconnect for PiHole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt
+
+## Ad server list for use with hosts files to block ads 
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+
+## Adguard Crypto Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_crypto_host.txt
+
+## Adguard Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt
+
+## Adguard Mobile Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt
+
+## Host file to block ads, tracking and more! 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adservers.txt
+
+## Gambling hosts 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt
+
+## SmartTV Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt
+
+## Android Tracking Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/android-tracking-pihole.txt
+
+## NoTrack Tracker Blocklist for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/NoTrack_Tracker_Blocklist.txt
+
+## Adguard Host Privacy filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host_privacy.txt
+
+## hole.cert.pl domains for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hole_cert_pl.txt
+
+## Ublock Host filters for Pi hole 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/ublock_hosts.txt
+
+## Malicious URL Blocklist 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/urlhaus_filter_hosts.txt
+
+## TokTok Hosts 
+https://raw.githubusercontent.com/llacb47/mischosts/master/tiktok-hosts
+
+## Blocks Apple telemetry and tracking 
+https://raw.githubusercontent.com/llacb47/mischosts/master/apple-telemetry
+
+## Blocks spying, tracking, and telemetry 
+https://raw.githubusercontent.com/llacb47/mischosts/master/microsoft-telemetry
+
+## AdAway-hosts 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/AdAway-hosts.txt
+
+## AdguardDNS-hosts 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/AdguardDNS-hosts.txt
+
+## Prigent-Ads-hosts 
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Prigent-Ads-hosts.txt
+
+
+## Trackers and malware
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+https://gitlab.com/my-privacy-dns/matrix/matrix/-/raw/master/source/tracking/domains.list
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/StreamingAds/hosts
+https://raw.githubusercontent.com/w13d/adblockListABP-PiHole/master/Spotify.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/AdAway-Default-Blocklist.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/FadeMind-addSpam.txt
+https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list
+
+## Analytics
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list
+https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analytics.txt
+https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
+https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_facebook0.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
